@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Default profile avatar: a person silhouette on a tinted circle. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="@color/avatar_background"
+        android:pathData="M48,0a48,48 0,1 1,0 96a48,48 0,1 1,0 -96z" />
+    <path
+        android:fillColor="@color/avatar_foreground"
+        android:pathData="M48,24a14,14 0,1 1,0 28a14,14 0,1 1,0 -28z" />
+    <path
+        android:fillColor="@color/avatar_foreground"
+        android:pathData="M22,80c0,-13 11.6,-22 26,-22s26,9 26,22c-7,6.5 -16,10 -26,10s-19,-3.5 -26,-10z" />
+</vector>

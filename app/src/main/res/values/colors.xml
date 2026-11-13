@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="brand_primary">#FF3949AB</color>
+    <color name="brand_on_primary">#FFFFFFFF</color>
+    <color name="brand_primary_container">#FFDEE0FF</color>
+    <color name="brand_on_primary_container">#FF00105C</color>
+    <color name="brand_secondary">#FF5B5D72</color>
+    <color name="brand_background">#FFFBF8FF</color>
+    <color name="brand_on_background">#FF1B1B21</color>
+    <color name="brand_surface_variant">#FFE3E1EC</color>
+    <color name="brand_on_surface_variant">#FF46464F</color>
+
+    <color name="brand_primary_dark">#FFBAC3FF</color>
+    <color name="brand_on_primary_dark">#FF08218A</color>
+    <color name="brand_primary_container_dark">#FF2A3B9E</color>
+    <color name="brand_on_primary_container_dark">#FFDEE0FF</color>
+    <color name="brand_secondary_dark">#FFC4C5DD</color>
+    <color name="brand_background_dark">#FF121318</color>
+    <color name="brand_on_background_dark">#FFE4E1E9</color>
+    <color name="brand_surface_variant_dark">#FF46464F</color>
+    <color name="brand_on_surface_variant_dark">#FFC7C5D0</color>
+
+    <color name="avatar_background">#FFC5CAE9</color>
+    <color name="avatar_foreground">#FF3949AB</color>
+</resources>

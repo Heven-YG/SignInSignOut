@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+
+    <!-- Shared form labels -->
+    <string name="label_name">Name</string>
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="label_confirm_password">Confirm password</string>
+
+    <!-- Sign in -->
+    <string name="sign_in_title">Welcome back</string>
+    <string name="sign_in_subtitle">Sign in to continue</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="sign_in_no_account">Don\'t have an account? Sign Up</string>
+    <string name="sign_in_progress">Signing in</string>
+
+    <!-- Sign up -->
+    <string name="sign_up_title">Create account</string>
+    <string name="sign_up_subtitle">Add a photo and your details</string>
+    <string name="complete_profile_title">Complete your profile</string>
+    <string name="complete_profile_subtitle">Your account exists, but its profile is missing. Add your name to continue.</string>
+    <string name="action_create_account">Create Account</string>
+    <string name="action_save_profile">Save Profile</string>
+    <string name="action_retry_save_profile">Retry Saving Profile</string>
+    <string name="sign_up_have_account">Already have an account? Sign In</string>
+    <string name="action_use_different_account">Sign out and use a different account</string>
+    <string name="sign_up_progress">Creating account</string>
+    <string name="add_image">Tap to add a photo</string>
+    <string name="change_image">Tap to change photo</string>
+    <string name="cd_choose_profile_image">Choose profile image</string>
+    <plurals name="password_helper">
+        <item quantity="one">At least %1$d character</item>
+        <item quantity="other">At least %1$d characters</item>
+    </plurals>
+
+    <!-- Main -->
+    <string name="main_title">Profile</string>
+    <string name="cd_profile_image">Profile image</string>
+    <string name="action_sign_out">Sign Out</string>
+    <string name="action_retry">Retry</string>
+    <string name="profile_loading">Loading profile</string>
+    <string name="signing_out">Signing out</string>
+    <string name="signed_in_as">Signed in as</string>
+
+    <!-- Validation errors -->
+    <string name="error_name_required">Enter your name</string>
+    <string name="error_email_required">Enter your email</string>
+    <string name="error_email_invalid">Enter a valid email address</string>
+    <string name="error_password_required">Enter your password</string>
+    <plurals name="error_password_too_short">
+        <item quantity="one">Password must be at least %1$d character</item>
+        <item quantity="other">Password must be at least %1$d characters</item>
+    </plurals>
+    <string name="error_confirm_password_required">Confirm your password</string>
+    <string name="error_passwords_do_not_match">Passwords do not match</string>
+
+    <!-- Firebase / operation errors -->
+    <string name="error_invalid_credentials">Incorrect email or password</string>
+    <string name="error_user_disabled">This account has been disabled</string>
+    <string name="error_too_many_requests">Too many attempts. Wait a moment and try again.</string>
+    <string name="error_network">No connection. Check your network and try again.</string>
+    <string name="error_email_in_use">An account with this email already exists. Sign in instead.</string>
+    <string name="error_weak_password">Password is too weak. Choose a stronger password.</string>
+    <string name="error_timeout">The request took too long. Check your connection and try again.</string>
+    <string name="error_permission_denied">Access to your profile was denied. Check the Firestore security rules.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_profile_load_on_sign_in">Signed in, but your profile could not be loaded. %1$s</string>
+    <string name="error_profile_save_failed">Your account was created, but the profile could not be saved. %1$s</string>
+    <string name="error_profile_load">Your profile could not be loaded. %1$s</string>
+    <string name="error_profile_refresh">Showing saved profile. Latest details could not be loaded.</string>
+    <string name="error_image_invalid">That image could not be used. Choose a different photo.</string>
+    <string name="error_session_expired">Your session ended. Please sign in again.</string>
+
+    <!-- Notifications -->
+    <!-- Must match Constants.NOTIFICATION_CHANNEL_ID. -->
+    <string name="default_notification_channel_id" translatable="false">chat_messages</string>
+    <string name="notification_channel_name">Messages</string>
+    <string name="notification_channel_description">Notifications for new messages</string>
+    <string name="notification_permission_denied">Notifications are off. You can enable them in Settings.</string>
+</resources>
